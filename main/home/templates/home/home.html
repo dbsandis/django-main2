@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome to the Home Page</h1>
+
+    <!-- Link to your Django app's home page -->
+    <a href="{% url 'home' %}">Go to Home</a><br>
+
+    <!-- Link to the Django admin interface (User Manager) -->
+    <a href="{% url 'admin:index' %}">Go to User Manager (Admin)</a>
+</body>
+</html>
